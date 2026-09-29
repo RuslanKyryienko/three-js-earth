@@ -1,5 +1,7 @@
 # threejs-earth
 
+**[Live demo →](https://ruslankyryienko.github.io/three-js-earth/)**
+
 An interactive 3D scene built with Three.js + TypeScript, bundled by Vite.
 
 The scene: a textured Earth with a slow rotation, a
