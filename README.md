@@ -28,7 +28,7 @@ src/lights.ts         ambient light + directional sun
 src/earth.ts          geometry, material, texture, rotation, disposal
 src/gui.ts            dat.GUI panels
 src/style.css         margin reset, overflow: hidden
-public/img/           textures (bluemarble.jpg, earth.png, winxp.webp)
+public/img/           textures (bluemarble.jpg)
 public/skybox/        6 cube map faces (px/nx/py/ny/pz/nz.png)
 tsconfig.json         target ES2023, moduleResolution: bundler
 ```
@@ -38,7 +38,7 @@ tsconfig.json         target ES2023, moduleResolution: bundler
 ```bash
 npm install
 npm run dev       # Vite dev server with HMR
-npm run build     # tsc --noEmit + vite build → dist/
+npm run build     # tsc + vite build → dist/
 npm run preview   # local preview of the production build
 ```
 

@@ -8,11 +8,13 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.186.1"
+  },
   "devDependencies": {
     "@types/dat.gui": "^0.7.13",
     "@types/three": "^0.186.0",
-    "dat.gui": "^0.7.9",
-    "three": "^0.186.1",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"
   }
